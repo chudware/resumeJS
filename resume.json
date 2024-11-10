@@ -1,0 +1,26 @@
+[
+    {
+        "name":"John Smith",
+        "email":"johnsmith@example.com",
+        "phoneNumber":"+1 212 555 6342",
+        "github":"username"
+    },
+    {
+        "companyName":"Big Corporation Inc. (2024)",
+        "date":"Jan 1st 1970 - Jan 1st 1980",
+        "experience":"Did cool stuff with JavaScript"
+    },
+    {
+        "companyName":"Small Startup LLC (2023)",
+        "date":"Jan 1st 1980 - Jan 1st 1990",
+        "experience":"Did cool stuff with TypeScript"
+    },
+    {
+        "projectName":"GitHub Project #1",
+        "experience2":"Did cool stuff with Rust"
+    },
+    {
+        "projectName":"GitHub Project #2",
+        "experience2":"Did cool stuff with Tauri"
+    }
+]

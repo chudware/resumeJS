@@ -1,0 +1,49 @@
+body {
+    background-color: #dfdfdf;
+}
+
+#info{
+    padding-bottom: 5px;
+    font-family: 'Ubuntu';
+    color: black;
+    font-weight:400
+}
+
+#info h1, a{
+    font-family: 'Ubuntu';
+    color: #6A5ACD;
+    font-weight: bold;
+}
+
+#workExperience {
+    font-family: 'Ubuntu';
+    color: #6A5ACD;
+    font-weight: bold;
+}
+
+#workExperience li {
+    font-family: 'Ubuntu';
+    color: black;
+    font-weight:200
+}
+
+#projects {
+    font-family: 'Ubuntu';
+    color: #6A5ACD;
+    font-weight: bold;
+}
+
+#projects li {
+    font-family: 'Ubuntu';
+    color: black;
+    font-weight:200
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
