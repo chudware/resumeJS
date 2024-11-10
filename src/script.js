@@ -35,9 +35,24 @@ fetch('resume.json')
                 document.querySelector('#workExperience').insertAdjacentHTML('beforeend', companyName);
             }
 
-            if (user.experience) {
-                const experience = `<li>${user.experience}</li>`;
-                document.querySelector('#workExperience').insertAdjacentHTML('beforeend', experience);
+            if (user.workExperience) {
+                const workExperience = `<li>${user.workExperience}</li>`;
+                document.querySelector('#workExperience').insertAdjacentHTML('beforeend', workExperience);
+            }
+
+            if (user.workExperience2) {
+                const workExperience2 = `<li>${user.workExperience2}</li>`;
+                document.querySelector('#workExperience').insertAdjacentHTML('beforeend', workExperience2);
+            }
+
+            if (user.workExperience3) {
+                const workExperience3 = `<li>${user.workExperience3}</li>`;
+                document.querySelector('#workExperience').insertAdjacentHTML('beforeend', workExperience3);
+            }
+
+            if (user.workExperience4) {
+                const workExperience4 = `<li>${user.workExperience4}</li>`;
+                document.querySelector('#workExperience').insertAdjacentHTML('beforeend', workExperience4);
             }
 
             // Projects
@@ -46,9 +61,24 @@ fetch('resume.json')
                 document.querySelector('#projects').insertAdjacentHTML('beforeend', projectName);
             }
 
-            if (user.experience2) {
-                const experience2 = `<li>${user.experience2}</li>`;
-                document.querySelector('#projects').insertAdjacentHTML('beforeend', experience2);
+            if (user.projectExperience) {
+                const projectExperience = `<li>${user.projectExperience}</li>`;
+                document.querySelector('#projects').insertAdjacentHTML('beforeend', projectExperience);
+            }
+
+            if (user.projectExperience2) {
+                const projectExperience2 = `<li>${user.projectExperience2}</li>`;
+                document.querySelector('#projects').insertAdjacentHTML('beforeend', projectExperience2);
+            }
+
+            if (user.projectExperience3) {
+                const projectExperience3 = `<li>${user.projectExperience3}</li>`;
+                document.querySelector('#projects').insertAdjacentHTML('beforeend', projectExperience3);
+            }
+
+            if (user.projectExperience4) {
+                const projectExperience4 = `<li>${user.projectExperience4}</li>`;
+                document.querySelector('#projects').insertAdjacentHTML('beforeend', projectExperience4);
             }
         });
     })
